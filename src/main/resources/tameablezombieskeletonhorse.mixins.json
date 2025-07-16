@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.tameablezombieskeletonhorse.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tameablezombieskeletonhorse.refmap.json",
+  "plugin": "com.rinko1231.tameablezombieskeletonhorse.mixin.HorseMixinPlugin",
+  "mixins": [
+    "SkeletonHorseMixin",
+    "ZombieHorseMixin",
+    "iaf.EntityDreadHorseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
